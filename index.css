@@ -1,0 +1,176 @@
+* {
+  font-family: Bradley hand;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  max-width: auto;
+  padding: 5px;
+  background-color: #ffa7d0;
+  position: sticky;
+}
+
+.logo img {
+  border: 1px solid white;
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+}
+
+.cart {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.cart span {
+  border: 1px solid white;
+  border-radius: 100%;
+  height: 23px;
+  width: 23px;
+  font-size: smaller;
+  padding-left: 5px;
+  padding-top: 2px;
+  color: red;
+}
+
+.All-items {
+  background-image: url("https://wallpapercave.com/wp/wp11044674.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 5px solid pink;
+  margin: 20px 5%;
+  max-width: 600px;
+  width: 90%;
+  height: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8); /* Black shadow */
+  display: flex;
+  gap: 4px;
+  justify-content: space-around;
+}
+
+.All-items .first {
+  display: flex;
+  gap: 4px;
+}
+
+.All-items .first .cake {
+  border: 2px solid palevioletred;
+  height: 150px;
+  width: 100px;
+  margin: 5px 5px;
+  padding: 5px 5px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.All-items .first .cake:hover,
+.first-2 .cart--add:hover {
+  box-shadow: 0 4px 10px rgba(8, 8, 8, 0.8); /* Black shadow */
+  transition: ease-in-out;
+  transition: box-shadow 0.9s ease;
+}
+
+.All-items .first .cake img {
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+  border: 2px solid pink;
+}
+
+.first-2 {
+  background-color: transparent;
+  display: flex; /* Make the parent a flex container */
+  justify-content: space-between; /* spacebetween */
+  align-items: center;
+}
+
+.first-2 .cart--add {
+  border: 1px solid rgb(230, 140, 155);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  width: 300px;
+  height: 60px;
+}
+
+.underlist h1,
+.underlist p {
+  font-size: 10px;
+  padding-top: 5px;
+}
+
+.love i {
+  color: black;
+}
+
+.love i:hover {
+  color: red;
+  transition: color 0.3s ease;
+}
+
+.love i:active {
+  color: red;
+}
+
+.love-add-minus {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+}
+
+.love i {
+  font-size: 10px;
+}
+
+.add-minus {
+  display: flex;
+  gap: 4px;
+}
+
+.add-minus .box {
+  border: 1px solid black;
+  width: 10px;
+  height: 10px;
+  font-size: 6px;
+  padding: 1px 2px;
+}
+
+.add-minus button {
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  border-radius: 2px;
+  font-size: xx-small;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.All-items .secornd img {
+  border: 2px solid palevioletred;
+  height: 230px;
+  width: 110px;
+  margin: 2px 2px;
+  border-radius: 10px;
+}
+
+.total {
+  border: 1px solid rgb(230, 140, 155);
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(8, 8, 8, 0.8); /* Black shadow */
+}
